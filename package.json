@@ -1,6 +1,5 @@
 {
-  "name": "gh_pkg",
-  "private": true,
+  "name": "@tonishi0922/gh_pkg",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -24,5 +23,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
